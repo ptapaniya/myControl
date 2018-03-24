@@ -1,0 +1,6 @@
+framework module myControl {
+  umbrella header "myControl-umbrella.h"
+
+  export *
+  module * { export * }
+}

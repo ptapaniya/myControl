@@ -1,0 +1,22 @@
+{
+  "name": "myControl",
+  "version": "0.1.0",
+  "summary": "A short description of myControl.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/ptapaniya/myControl",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ptapaniya": "ptapaniya@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/ptapaniya/myControl.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "myControl/Classes/**/*"
+}

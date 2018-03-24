@@ -1,0 +1,16 @@
+PODS:
+  - myControl (0.1.0)
+
+DEPENDENCIES:
+  - myControl (from `../`)
+
+EXTERNAL SOURCES:
+  myControl:
+    :path: ../
+
+SPEC CHECKSUMS:
+  myControl: 1da790bd76e2d0fc7217c6fc95a0090753ebfd2c
+
+PODFILE CHECKSUM: d874665319c66378a9d803d400193f86a910d1e5
+
+COCOAPODS: 1.4.0

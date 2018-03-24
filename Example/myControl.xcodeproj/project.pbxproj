@@ -42,11 +42,11 @@
 		607FACE51AFB9204008FA782 /* myControl_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myControl_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		69792FB854A29B1DD7BFD710 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		69792FB854A29B1DD7BFD710 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		71BE688EAC9E41289C827EDD /* Pods_myControl_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_myControl_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB5C8401759B062B6F2FB27C /* Pods-myControl_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myControl_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-myControl_Example/Pods-myControl_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		D325C12C49FF539E1A16202E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		F0091E948A5F4D033864337F /* myControl.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = myControl.podspec; path = ../myControl.podspec; sourceTree = "<group>"; };
+		D325C12C49FF539E1A16202E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		F0091E948A5F4D033864337F /* myControl.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = myControl.podspec; path = ../myControl.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -215,6 +215,7 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = PLURSQEEM8;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
@@ -517,6 +518,7 @@
 			baseConfigurationReference = AB5C8401759B062B6F2FB27C /* Pods-myControl_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PLURSQEEM8;
 				INFOPLIST_FILE = myControl/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -532,6 +534,7 @@
 			baseConfigurationReference = 5770BD92A24552ED226D472F /* Pods-myControl_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PLURSQEEM8;
 				INFOPLIST_FILE = myControl/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
